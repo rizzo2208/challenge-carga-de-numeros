@@ -27,10 +27,10 @@ void main(){
         i++;
         }
 
-    menor = numMenor(&lista[dim], dim); // envio el array a la funcion(clase) para obtener el numero menor.
-    mayor = numMayor(&lista[dim], dim); // envio el array a la funcion(clase) para obtener el numero mayor.
-    sumaPar = sumPar(&lista[dim], dim); // envio el array a la funcion(clase) para obtener la suma de los numeros pares.
-    muestra(mayor,menor,suma,sumaPar); // envio las variables a la funcion(clase) para mostrar por pantalla.
+    menor = numMenor(&lista[dim], dim); // envio el array a la funcion(metodo) para obtener el numero menor.
+    mayor = numMayor(&lista[dim], dim); // envio el array a la funcion(metodo) para obtener el numero mayor.
+    sumaPar = sumPar(&lista[dim], dim); // envio el array a la funcion(metodo) para obtener la suma de los numeros pares.
+    muestra(mayor,menor,suma,sumaPar); // envio las variables a la funcion(metodo) para mostrar por pantalla.
 }
 
 int numMenor(int *a[], int dimencion){
